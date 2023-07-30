@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+html{
+    background-color: #262626;
+}
+
+#genel{
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.icerik{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    /* max-width: 600px; */
+    width: 600px;
+}
+
+.icerik .input-alan{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.input-alan input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #2b2929 0%, black 100%);
+    color: #fff;
+    padding: 5px 0 5px 10px;
+}
+
+.input-alan button{
+    padding: 10px 20px;
+    background-color: #49b9f1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icerik .kart{
+    transition: 5s;
+}
+
+.icerik .kart .ust{
+    display: flex;
+    margin-top: 20px;
+}
+
+.icerik .kart .ust .resim{
+    text-align: center;
+}
+
+.icerik .kart .ust .resim img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.resim h2{
+    font-size: 16px;
+    margin: 5px;
+}
+
+.icerik .sag{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.sag .ust-ad{
+    display: flex;
+    align-items: center;
+}
+
+.ust-ad h2{
+    font-size: 17px;
+}
+
+.ust-ad a{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.ust-ad a span{
+    font-size: 25px;
+    color: #49b9f1;
+    transform: rotate(40deg);
+}
+
+.sag .takip-bir{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hata{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
